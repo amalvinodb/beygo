@@ -8,7 +8,7 @@ export default function Page() {
   return (
     <div className="flex flex-col w-full items-center fixed">
       <nav
-        className="flex justify-between h-[60px] max-w-[660px] w-full bg-white items-center rounded-4xl drop-shadow-lg"
+        className="flex justify-between h-[60px] max-w-[660px] w-full bg-white items-center rounded-4xl drop-shadow-xl"
         style={{ padding: "30px", marginTop: "10px" }}
       >
         <div className="">
@@ -24,9 +24,9 @@ export default function Page() {
         <div style={{ paddingLeft: "20px" }}>
           <div className="hidden md:block">
             <ul className="list-none flex w-[400px] justify-between items-center">
-              <li>Home</li>
-              <li>About</li>
-              <li>Contact</li>
+              <li className="font-semibold">Home</li>
+              <li className="font-semibold">About</li>
+              <li className="font-semibold">Contact</li>
             </ul>
           </div>
 
