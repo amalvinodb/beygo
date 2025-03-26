@@ -9,23 +9,26 @@ export default function Page() {
     <div className="flex flex-col w-full items-center fixed">
       <nav
         className="flex justify-between h-[60px] max-w-[660px] w-full bg-white items-center rounded-4xl drop-shadow-xl"
-        style={{ padding: "30px", marginTop: "20px" }}
+        style={{ padding: "30px", margin: "20px auto" }}
       >
-        <div className="">
-          <div className="header-logo">
-            <span className="b">b</span>
-            <span className="e">e</span>
-            <span className="y">y</span>
-            <span className="g">g</span>
-            <span className="o">o</span>
-          </div>
+        <div className="w-[40%]">
+          <a href="/">
+            <div className="header-logo">
+              <span className="b">b</span>
+              <span className="e">e</span>
+              <span className="y">y</span>
+              <span className="g">g</span>
+              <span className="o">o</span>
+            </div>
+          </a>
         </div>
-        {/* This div will show only when the screen width is 760px or more */}
-        <div style={{ paddingLeft: "20px" }}>
+        <div className="w-[30%]" style={{ paddingLeft: "0px" }}>
           <div className="hidden md:block">
-            <ul className="list-none flex w-[400px] justify-between items-center">
-              <li className="font-semibold">Home</li>
-              <li className="font-semibold">About</li>
+            <ul className="list-none flex justify-between items-center">
+              {/* <li className="font-semibold">Home</li> */}
+              <li className="font-semibold">
+                <a href="/about">About</a>
+              </li>
               <li className="font-semibold">Contact</li>
             </ul>
           </div>
