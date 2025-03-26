@@ -11,13 +11,39 @@
   padding-top: 50px;
 }
 
-.body-website {
-}
 .low-space {
   word-spacing: -5px;
 }
 
 .productImage1 {
+  width: 350px;
+  height: 350px;
+  background-image: url("../../public/images/blue-liquid-new.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.productImage2 {
+  width: 350px;
+  height: 350px;
+  background-image: url("../../public/images/white-projections.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.productImage3 {
+  width: 350px;
+  height: 350px;
+  background-image: url("../../public/images/red_fluid.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.productImage4 {
+  width: 350px;
+  height: 350px;
+  background-image: url("../../public/images/white-flow.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.productImage5 {
   width: 350px;
   height: 350px;
   background-image: url("../../public/images/blue-liquid-new.jpg");

@@ -194,15 +194,7 @@ export default function Home() {
         </h2>
         <div className="w-full flex justify-between">
           <div className="w-[40%] ">
-            <div className="productImage1 border-2 border-solid rounded-3xl">
-              {/* <Image
-                className="rounded-3xl"
-                src="/images/blue-liquid-new.jpg"
-                alt="image"
-                width={350}
-                height={350}
-              /> */}
-            </div>
+            <div className="productImage1 border-2 border-solid rounded-3xl"></div>
           </div>
           <div className="w-[60%]">
             <h3
@@ -228,31 +220,36 @@ export default function Home() {
               className="text-4xl font-semibold"
               style={{ marginBottom: "20px" }}
             >
-              Global Network Solutions. Partners You Can Rely On.
+              Marketing Depth in UAE & India. Insight-Driven Success.
             </h3>
             <p className="text-xl">
-              At Beygo, our extensive global network connects us with trusted
-              Original Design Manufacturers (ODMs) known for quality and
-              innovation. This ensures we source products that meet the highest
-              standards, giving our partners the confidence to grow with us.
+              Our deep understanding of the UAE and Indian markets allows us to
+              implement data-backed marketing strategies. With a focus on
+              regional preferences and market behavior, we help products reach
+              the right audience at the right time — building both trust and
+              brand loyalt
             </p>
           </div>
-          <div className="w-[40%]">image</div>
+          <div className="w-[40%]">
+            <div className="productImage2 border-2 border-solid rounded-3xl"></div>
+          </div>
         </div>
         <div className="w-full flex justify-between">
-          <div className="w-[40%]">image</div>
+          <div className="w-[40%]">
+            <div className="productImage3 border-2 border-solid rounded-3xl"></div>
+          </div>
           <div className="w-[60%]">
             <h3
               className="text-4xl font-semibold"
               style={{ marginBottom: "20px" }}
             >
-              Global Network Solutions. Partners You Can Rely On.
+              Wide Distribution Network. Delivering with Excellence.
             </h3>
             <p className="text-xl">
-              At Beygo, our extensive global network connects us with trusted
-              Original Design Manufacturers (ODMs) known for quality and
-              innovation. This ensures we source products that meet the highest
-              standards, giving our partners the confidence to grow with us.
+              We’ve built a strong, reliable distribution network designed for
+              seamless product movement. With our expertise in logistics and
+              supply chain management, we ensure timely deliveries while
+              maintaining product quality, reinforcing your customers’ trust.
             </p>
           </div>
         </div>
@@ -265,31 +262,32 @@ export default function Home() {
               className="text-4xl font-semibold"
               style={{ marginBottom: "20px" }}
             >
-              Global Network Solutions. Partners You Can Rely On.
+              In-House E-commerce Team. Focused on Your Growth.
             </h3>
             <p className="text-xl">
-              At Beygo, our extensive global network connects us with trusted
-              Original Design Manufacturers (ODMs) known for quality and
-              innovation. This ensures we source products that meet the highest
-              standards, giving our partners the confidence to grow with us.
+              Our experienced e-commerce team provides end-to-end support,
+              ensuring a seamless online presence for your products. From
+              optimizing listings to enhancing user experience, we ensure your
+              brand stands out in a competitive digital landscape.
             </p>
           </div>
-          <div className="w-[40%]">image</div>
+          <div className="w-[40%]"> <div className="productImage4 border-2 border-solid rounded-3xl"></div></div>
         </div>
         <div className="w-full flex justify-between">
-          <div className="w-[40%]">image</div>
+          <div className="w-[40%]"> <div className="productImage5 border-2 border-solid rounded-3xl"></div></div>
           <div className="w-[60%]">
             <h3
               className="text-4xl font-semibold"
               style={{ marginBottom: "20px" }}
             >
-              Global Network Solutions. Partners You Can Rely On.
+              Retail Expansion. Entering the Premium Market.
             </h3>
             <p className="text-xl">
-              At Beygo, our extensive global network connects us with trusted
-              Original Design Manufacturers (ODMs) known for quality and
-              innovation. This ensures we source products that meet the highest
-              standards, giving our partners the confidence to grow with us.
+              As we take the next step into retail, we’re committed to creating
+              an exceptional shopping experience for premium customers. Our
+              dedication to quality, design, and brand storytelling will
+              position your products where they truly belong — in the hands of
+              those who value the best.
             </p>
           </div>
         </div>
