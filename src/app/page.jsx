@@ -273,7 +273,7 @@ export default function Home() {
           </div>
           <div className="w-[40%]"> <div className="productImage4 border-2 border-solid rounded-3xl"></div></div>
         </div>
-        <div className="w-full flex justify-between">
+        {/* <div className="w-full flex justify-between">
           <div className="w-[40%]"> <div className="productImage5 border-2 border-solid rounded-3xl"></div></div>
           <div className="w-[60%]">
             <h3
@@ -290,7 +290,7 @@ export default function Home() {
               those who value the best.
             </p>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );
