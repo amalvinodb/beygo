@@ -271,26 +271,11 @@ export default function Home() {
               brand stands out in a competitive digital landscape.
             </p>
           </div>
-          <div className="w-[40%]"> <div className="productImage4 border-2 border-solid rounded-3xl"></div></div>
-        </div>
-        {/* <div className="w-full flex justify-between">
-          <div className="w-[40%]"> <div className="productImage5 border-2 border-solid rounded-3xl"></div></div>
-          <div className="w-[60%]">
-            <h3
-              className="text-4xl font-semibold"
-              style={{ marginBottom: "20px" }}
-            >
-              Retail Expansion. Entering the Premium Market.
-            </h3>
-            <p className="text-xl">
-              As we take the next step into retail, we’re committed to creating
-              an exceptional shopping experience for premium customers. Our
-              dedication to quality, design, and brand storytelling will
-              position your products where they truly belong — in the hands of
-              those who value the best.
-            </p>
+          <div className="w-[40%]">
+            {" "}
+            <div className="productImage4 border-2 border-solid rounded-3xl"></div>
           </div>
-        </div> */}
+        </div>
       </div>
     </div>
   );
