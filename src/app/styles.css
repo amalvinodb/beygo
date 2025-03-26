@@ -1,5 +1,26 @@
-.hero-image{
-    background-image: url('../../public/images/hero_background.png');
-    background-repeat: no-repeat;
-    background-size: 100vw;
-  }
+.hero-image {
+  background-image: url("../../public/images/hero_background.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+
+  width: 100%;
+  height: 120vh;
+}
+
+.top-margin {
+  padding-top: 50px;
+}
+
+.body-website {
+}
+.low-space {
+  word-spacing: -5px;
+}
+
+.productImage1 {
+  width: 350px;
+  height: 350px;
+  background-image: url("../../public/images/blue-liquid-new.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}

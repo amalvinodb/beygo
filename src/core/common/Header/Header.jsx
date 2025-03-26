@@ -9,7 +9,7 @@ export default function Page() {
     <div className="flex flex-col w-full items-center fixed">
       <nav
         className="flex justify-between h-[60px] max-w-[660px] w-full bg-white items-center rounded-4xl drop-shadow-xl"
-        style={{ padding: "30px", marginTop: "10px" }}
+        style={{ padding: "30px", marginTop: "20px" }}
       >
         <div className="">
           <div className="header-logo">
