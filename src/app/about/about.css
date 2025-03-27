@@ -6,3 +6,13 @@
   width: 100%;
   height: 120vh;
 }
+
+.profile-picture {
+  background-image: url("../../../public/images/asif-pic.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 500px;
+  height: 500px;
+  border-radius: 50px;
+  /* background-color: red; */
+}
