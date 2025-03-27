@@ -8,44 +8,65 @@ export default function Page() {
   return (
     <div className="flex flex-col w-full items-center fixed z-5">
       <nav
-        className="flex justify-between h-[60px] max-w-[660px] w-full bg-white items-center rounded-4xl drop-shadow-xl"
-        style={{ padding: "30px", margin: "20px auto" }}
+        className="flex flex-col justify-between h-auto max-w-[660px] w-full bg-white items-center rounded-4xl drop-shadow-xl"
+        style={{ padding: "10px 30px", margin: "20px auto" }}
       >
-        <div className="w-[40%]">
-          <a href="/">
-            <div className="header-logo">
-              <span className="b">b</span>
-              <span className="e">e</span>
-              <span className="y">y</span>
-              <span className="g">g</span>
-              <span className="o">o</span>
+        <div className="w-full flex justify-between">
+          <div className="w-[40%]">
+            <a href="/">
+              <div className="header-logo text-xl md:text-4xl">
+                <span className="b">b</span>
+                <span className="e">e</span>
+                <span className="y">y</span>
+                <span className="g">g</span>
+                <span className="o">o</span>
+              </div>
+            </a>
+          </div>
+          <div
+            className="w-[30%] flex justify-end items-center"
+            style={{ paddingLeft: "0px" }}
+          >
+            <div className="hidden md:block w-full">
+              <ul className="list-none flex justify-between items-center">
+                {/* <li className="font-semibold">Home</li> */}
+                <li className="font-semibold">
+                  <a href="/about">About</a>
+                </li>
+                <hr />
+                <li className="font-semibold">
+                  <a href="/contact">Contact</a>
+                </li>
+              </ul>
             </div>
-          </a>
-        </div>
-        <div className="w-[30%]" style={{ paddingLeft: "0px" }}>
-          <div className="hidden md:block">
-            <ul className="list-none flex justify-between items-center">
-              {/* <li className="font-semibold">Home</li> */}
-              <li className="font-semibold">
-                <a href="/about">About</a>
-              </li>
-              <li className="font-semibold">
-                <a href="/contact">Contact</a>
-              </li>
-            </ul>
-          </div>
 
-          {/* This div will show only when the screen width is below 760px */}
-          <div className="block md:hidden">
-            <button onClick={() => setIsOpen(!isOpen)}>
-              <Image
-                src="/icons/hamburger_icon.svg"
-                alt="Icon"
-                width={50}
-                height={50}
-              />
-            </button>
+            {/* This div will show only when the screen width is below 760px */}
+            <div className="block md:hidden flex justify-end">
+              <button onClick={() => setIsOpen(!isOpen)}>
+                <Image
+                  src="/icons/hamburger_icon.svg"
+                  alt="Icon"
+                  width={30}
+                  height={30}
+                />
+              </button>
+            </div>
           </div>
+        </div>
+        <div
+          className={`${
+            isOpen ? "block" : "hidden"
+          } border-t-2 border-solid w-full block md:hidden`}
+          style={{ marginTop: "20px", padding: "20px 0px" }}
+        >
+          <ul className="flex flex-col gap-4">
+            <li className="font-semibold">
+              <a href="/about">About</a>
+            </li>
+            <li className="font-semibold mt-4">
+              <a href="/contact">Contact</a>
+            </li>
+          </ul>
         </div>
       </nav>
     </div>
