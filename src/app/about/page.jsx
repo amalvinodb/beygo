@@ -1,16 +1,15 @@
 import Image from "next/image";
 import "./about.css";
+import HeroSection from "@/core/common/HeroSection/HeroSection";
 
 export default function About() {
   return (
     <div>
-      <div className="hero-image">
-        <div className="w-full h-full flex flex-col justify-center items-center">
-          <h1 className="text-7xl font-bold"> Beyond Go,</h1>
-          <h1 className="text-7xl font-bold">Elevating Every Lifestyle</h1>
-          <h3 className="text-2xl">where innovation meets lifestyle.</h3>
-        </div>
-      </div>
+      <HeroSection
+        title1={"Beyond Go,"}
+        title2={"Elevating Every Lifestyle"}
+        subHeading={"where innovation meets lifestyle."}
+      />
       <div className="max-w-[1140px]" style={{ margin: "30px auto" }}>
         <div className="flex flex-col gap-4">
           <h3 className="text-5xl font-bold">Beygo. Beyond Go.</h3>
