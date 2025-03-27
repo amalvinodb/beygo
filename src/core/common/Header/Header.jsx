@@ -29,7 +29,9 @@ export default function Page() {
               <li className="font-semibold">
                 <a href="/about">About</a>
               </li>
-              <li className="font-semibold">Contact</li>
+              <li className="font-semibold">
+                <a href="/contact">Contact</a>
+              </li>
             </ul>
           </div>
 
