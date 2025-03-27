@@ -6,7 +6,7 @@ import "./headers.css";
 export default function Page() {
   const [isOpen, setIsOpen] = useState(false);
   return (
-    <div className="flex flex-col w-full items-center fixed">
+    <div className="flex flex-col w-full items-center fixed z-5">
       <nav
         className="flex justify-between h-[60px] max-w-[660px] w-full bg-white items-center rounded-4xl drop-shadow-xl"
         style={{ padding: "30px", margin: "20px auto" }}

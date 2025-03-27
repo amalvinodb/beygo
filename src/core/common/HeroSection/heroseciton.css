@@ -1,0 +1,16 @@
+.topLeft {
+  background-image: url("../../../../public/images//heros/Artboard2.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+
+  width: 250px;
+  height: 250px;
+}
+.topRight{
+  background-image: url("../../../../public/images//heros/Artboard1.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+
+  width: 250px;
+  height: 250px;
+}

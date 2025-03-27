@@ -1,16 +1,22 @@
 import Image from "next/image";
+import HeroSection from "@/core/common/HeroSection/HeroSection";
 import "./styles.css";
 
 export default function Home() {
   return (
     <div>
-      <div className="hero-image">
+      <HeroSection
+        title1={"Elevating Innovation"}
+        title2={"&Lifestyle"}
+        subHeading={"where innovation meets lifestyle."}
+      />
+      {/* <div className="hero-image">
         <div className="w-full h-full flex flex-col justify-center items-center">
           <h1 className="text-7xl font-bold">Elevating Innovation</h1>
           <h1 className="text-7xl font-bold">&Lifestyle</h1>
           <h3 className="text-2xl">where innovation meets lifestyle.</h3>
         </div>
-      </div>
+      </div> */}
       <div
         className="body-website flex flex-col max-w-[1140px] items-center"
         style={{ margin: "0px auto" }}
