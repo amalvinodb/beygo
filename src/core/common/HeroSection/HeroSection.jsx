@@ -10,9 +10,9 @@ export default function HeroSection({ title1, title2, subHeading }) {
 
       <div>
         <div className="w-full h-full flex flex-col justify-center items-center">
-          <h1 className="text-7xl font-bold">{title1}</h1>
-          <h1 className="text-7xl font-bold">{title2}</h1>
-          <h3 className="text-2xl">{subHeading}</h3>
+          <h1 className="text-3xl md:text-7xl font-bold">{title1}</h1>
+          <h1 className="text-3xl md:text-7xl font-bold">{title2}</h1>
+          <h3 className="text-lg md:text-2xl">{subHeading}</h3>
         </div>
       </div>
       <div className="w-full flex justify-end">

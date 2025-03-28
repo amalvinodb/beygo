@@ -10,7 +10,7 @@ export default function About() {
         title2={"Elevating Every Lifestyle"}
         subHeading={"where innovation meets lifestyle."}
       />
-      <div className="max-w-[1140px]" style={{ margin: "30px auto" }}>
+      <div className="max-w-[1140px]" style={{ margin: "30px auto", padding: '0px 10px' }}>
         <div className="flex flex-col gap-4">
           <h3 className="text-5xl font-bold">Beygo. Beyond Go.</h3>
           <p className="text-xl">
@@ -19,10 +19,10 @@ export default function About() {
             continuous growth — a mindset that refuses to settle and constantly
             strives for something greater.
           </p>
-          <div className="flex gap-8">
+          <div className="flex flex-col md:flex-row gap-8">
             <div className="flex flex-col gap-4 ">
-              <div className="profile-picture border-2 border-solid flex flex-col justify-between items-center"></div>
-              <h3 className="text-4xl font-bold">AZIF ALI, Founder, CEO</h3>
+              <div className="profile-picture border-2 w-[400px] h-[400px] border-solid flex flex-col justify-between items-center"></div>
+              <h3 className="text-3xl font-bold">AZIF ALI, Founder, CEO</h3>
             </div>
             <div>
               <p className="text-xl">

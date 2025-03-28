@@ -33,7 +33,6 @@ export default function Page() {
                 <li className="font-semibold">
                   <a href="/about">About</a>
                 </li>
-                <hr />
                 <li className="font-semibold">
                   <a href="/contact">Contact</a>
                 </li>
