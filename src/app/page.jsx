@@ -199,10 +199,10 @@ export default function Home() {
           we are a global team
         </h2>
         <div className="w-full flex md:flex-row flex-col gap-4 justify-between">
-          <div className=" w-full md:w-[40%] ">
+          <div className=" w-full md:w-[40%] flex justify-center">
             <div className="productImage1 border-2 border-solid rounded-3xl"></div>
           </div>
-          <div className="w-full md:w-[60%]">
+          <div className="w-full md:w-[60%]" style={{ padding: "10px" }}>
             <h3
               className="text-2xl md:text-4xl font-semibold"
               style={{ marginBottom: "20px" }}
@@ -218,17 +218,20 @@ export default function Home() {
           </div>
         </div>
         <div
-          className="w-full flex justify-between"
+          className="w-full flex md:flex-row flex-col justify-between"
           style={{ margin: "150px 0px" }}
         >
-          <div className="w-[60%]">
+          <div
+            className="w-full md:w-[60%] order-2 md:order-1"
+            style={{ padding: "10px" }}
+          >
             <h3
-              className="text-4xl font-semibold"
+              className="text-2xl md:text-4xl font-semibold"
               style={{ marginBottom: "20px" }}
             >
               Marketing Depth in UAE & India. Insight-Driven Success.
             </h3>
-            <p className="text-xl">
+            <p className="text-lg md:text-xl">
               Our deep understanding of the UAE and Indian markets allows us to
               implement data-backed marketing strategies. With a focus on
               regional preferences and market behavior, we help products reach
@@ -236,22 +239,22 @@ export default function Home() {
               brand loyalt
             </p>
           </div>
-          <div className="w-[40%]">
+          <div className="w-full md:w-[40%] md:order-2 order-1 flex justify-center">
             <div className="productImage2 border-2 border-solid rounded-3xl"></div>
           </div>
         </div>
-        <div className="w-full flex justify-between">
-          <div className="w-[40%]">
+        <div className="w-full flex flex-col md:flex-row justify-between">
+          <div className="w-full md:w-[40%] flex justify-center">
             <div className="productImage3 border-2 border-solid rounded-3xl"></div>
           </div>
-          <div className="w-[60%]">
+          <div className="w-full md:w-[60%]" style={{ padding: "10px" }}>
             <h3
-              className="text-4xl font-semibold"
+              className="text-2xl md:text-4xl font-semibold"
               style={{ marginBottom: "20px" }}
             >
               Wide Distribution Network. Delivering with Excellence.
             </h3>
-            <p className="text-xl">
+            <p className="text-lg md:text-xl">
               We’ve built a strong, reliable distribution network designed for
               seamless product movement. With our expertise in logistics and
               supply chain management, we ensure timely deliveries while
@@ -260,10 +263,10 @@ export default function Home() {
           </div>
         </div>
         <div
-          className="w-full flex justify-between"
+          className="w-full flex flex-col md:flex-row justify-between"
           style={{ margin: "150px 0px" }}
         >
-          <div className="w-[60%]">
+          <div className="w-full md:w-[60%] order-2 md:order-1" style={{padding: '10px'}}>
             <h3
               className="text-4xl font-semibold"
               style={{ marginBottom: "20px" }}
@@ -277,8 +280,7 @@ export default function Home() {
               brand stands out in a competitive digital landscape.
             </p>
           </div>
-          <div className="w-[40%]">
-            {" "}
+          <div className="w-full md:w-[40%] order-1 md:order-2 flex justify-center">
             <div className="productImage4 border-2 border-solid rounded-3xl"></div>
           </div>
         </div>

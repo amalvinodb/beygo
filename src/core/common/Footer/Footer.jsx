@@ -3,12 +3,12 @@ import "./footer.css";
 
 export default function Page() {
   return (
-    <div className="footer-section drop-shadow-xl h-full flex flex-col border-4 border-solid items-center justify-between">
+    <div className="footer-section drop-shadow-xl h-auto flex flex-col border-4 border-solid items-center justify-between">
       <div
-        className="w-full h-full flex justify-between items-center gap-4"
+        className="w-full h-full flex flex-col md:flex-row justify-between items-center gap-4"
         style={{ padding: "40px 120px" }}
       >
-        <div>
+        <div className="md:block hidden">
           <a href="/">
             <div className="footer-logo">
               <span className="b">b</span>
@@ -58,7 +58,7 @@ export default function Page() {
           </div>
         </div>
       </div>
-      <div className="justify-self-end text-sm w-full text-center">
+      <div className="justify-self-end text-[8px] md:text-sm w-full text-center">
         Copyright© 2025 Beygo International, All Rights Reserved
       </div>
     </div>
