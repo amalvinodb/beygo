@@ -268,12 +268,12 @@ export default function Home() {
         >
           <div className="w-full md:w-[60%] order-2 md:order-1" style={{padding: '10px'}}>
             <h3
-              className="text-4xl font-semibold"
+              className="text-2xl md:text-4xl font-semibold"
               style={{ marginBottom: "20px" }}
             >
               In-House E-commerce Team. Focused on Your Growth.
             </h3>
-            <p className="text-xl">
+            <p className="text-lg md:text-xl">
               Our experienced e-commerce team provides end-to-end support,
               ensuring a seamless online presence for your products. From
               optimizing listings to enhancing user experience, we ensure your
