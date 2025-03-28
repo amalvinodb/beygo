@@ -21,16 +21,16 @@ export default function Home() {
         className="body-website flex flex-col max-w-[1140px] items-center"
         style={{ margin: "0px auto" }}
       >
-        <div className="w-[1080px] flex flex-col items-center">
+        <div className="max-w-[1080px] flex flex-col items-center">
           <h1
             className=" text-5xl font-semibold low-space"
             style={{ marginBottom: "40px" }}
           >
             What we sell
           </h1>
-          <div className="grid grid-cols-3 gap-4 w-full">
+          <div className="grid grid-col-1 md:grid-cols-3 gap-4 justify-center">
             <div
-              className="w-full text-start bg-[#f7f7f5] border-4 border-solid rounded-3xl"
+              className=" w-[300px] md:w-full text-start bg-[#f7f7f5] border-4 border-solid rounded-3xl"
               style={{ padding: "20px" }}
             >
               <h3
@@ -45,7 +45,7 @@ export default function Home() {
               </p>
             </div>
             <div
-              className="w-full text-start bg-[#f7f7f5] border-4 border-solid rounded-3xl"
+              className="w-[300px] md:w-full text-start bg-[#f7f7f5] border-4 border-solid rounded-3xl"
               style={{ padding: "20px" }}
             >
               <h3
@@ -60,7 +60,7 @@ export default function Home() {
               </p>
             </div>
             <div
-              className="w-full text-start bg-[#f7f7f5] border-4 border-solid rounded-3xl"
+              className="w-[300px] md:w-full text-start bg-[#f7f7f5] border-4 border-solid rounded-3xl"
               style={{ padding: "20px" }}
             >
               <h3
@@ -75,7 +75,7 @@ export default function Home() {
               </p>
             </div>
             <div
-              className="w-full text-start bg-[#f7f7f5] border-4 border-solid rounded-3xl"
+              className="w-[300px] md:w-full text-start bg-[#f7f7f5] border-4 border-solid rounded-3xl"
               style={{ padding: "20px" }}
             >
               <h3
@@ -90,7 +90,7 @@ export default function Home() {
               </p>
             </div>
             <div
-              className="w-full text-start bg-[#f7f7f5] border-4 border-solid rounded-3xl"
+              className="w-[300px] md:w-full text-start bg-[#f7f7f5] border-4 border-solid rounded-3xl"
               style={{ padding: "20px" }}
             >
               <h3
@@ -105,7 +105,7 @@ export default function Home() {
               </p>
             </div>{" "}
             <div
-              className="w-full text-start bg-[#f7f7f5] border-4 border-solid rounded-3xl"
+              className="w-[300px] md:w-full text-start bg-[#f7f7f5] border-4 border-solid rounded-3xl"
               style={{ padding: "20px" }}
             >
               <h3
@@ -120,7 +120,7 @@ export default function Home() {
               </p>
             </div>{" "}
             <div
-              className="w-full text-start bg-[#f7f7f5] border-4 border-solid rounded-3xl"
+              className="w-[300px] md:w-full text-start bg-[#f7f7f5] border-4 border-solid rounded-3xl"
               style={{ padding: "20px" }}
             >
               <h3
@@ -135,7 +135,7 @@ export default function Home() {
               </p>
             </div>{" "}
             <div
-              className="w-full text-start bg-[#f7f7f5] border-4 border-solid rounded-3xl"
+              className="w-[300px] md:w-full text-start bg-[#f7f7f5] border-4 border-solid rounded-3xl"
               style={{ padding: "20px" }}
             >
               <h3
@@ -150,7 +150,7 @@ export default function Home() {
               </p>
             </div>{" "}
             <div
-              className="w-full text-start bg-[#f7f7f5] border-4 border-solid rounded-3xl"
+              className="w-[300px] md:w-full text-start bg-[#f7f7f5] border-4 border-solid rounded-3xl"
               style={{ padding: "20px" }}
             >
               <h3
@@ -193,23 +193,23 @@ export default function Home() {
         style={{ margin: "0px auto" }}
       >
         <h2
-          className="text-5xl font-semibold low-space"
+          className="text-4xl md:text-5xl font-semibold low-space"
           style={{ margin: "50px 0px" }}
         >
           we are a global team
         </h2>
-        <div className="w-full flex justify-between">
-          <div className="w-[40%] ">
+        <div className="w-full flex md:flex-row flex-col gap-4 justify-between">
+          <div className=" w-full md:w-[40%] ">
             <div className="productImage1 border-2 border-solid rounded-3xl"></div>
           </div>
-          <div className="w-[60%]">
+          <div className="w-full md:w-[60%]">
             <h3
-              className="text-4xl font-semibold"
+              className="text-2xl md:text-4xl font-semibold"
               style={{ marginBottom: "20px" }}
             >
               Global Network Solutions. Partners You Can Rely On.
             </h3>
-            <p className="text-xl">
+            <p className="text-lg md:text-xl">
               At Beygo, our extensive global network connects us with trusted
               Original Design Manufacturers (ODMs) known for quality and
               innovation. This ensures we source products that meet the highest
